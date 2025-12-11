@@ -23,15 +23,18 @@ namespace TCP_Server
             //cuando alguien se conecta devuelve el tcpClient
             TcpClient cliente = miserverGuapo.AcceptTcpClient();
             Console.WriteLine("Cliente conectado");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Escribe lo que le quieres mandar al cliente: ");
+                string mensajito = Console.ReadLine();
 
-            Console.Write("Escribe lo que le quieres mandar al cliente: ");
-            string mensajito = Console.ReadLine();
+                //Obtener el flujo de datos asociado al socket de el clinete especifico
+                //todo lo que escriba en flujodatos se envia al cliente
+                NetworkStream flujodatos = cliente.GetStream();
+                byte[] purodatachorizo = Encoding.UTF8.GetBytes(mensajito);
+                flujodatos.Write(purodatachorizo, 0, purodatachorizo.Length);
+            }
 
-            //Obtener el flujo de datos asociado al socket de el clinete especifico
-            //todo lo que escriba en flujodatos se envia al cliente
-            NetworkStream flujodatos = cliente.GetStream();
-            byte[] purodatachorizo = Encoding.UTF8.GetBytes(mensajito);
-            flujodatos.Write(purodatachorizo, 0, purodatachorizo.Length);
 
             //cierra la conexion con el cliente
             cliente.Close();
