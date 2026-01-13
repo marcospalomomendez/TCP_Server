@@ -1,0 +1,8 @@
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe.config
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csproj.AssemblyReference.cache
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csproj.CoreCompileInputs.cache
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\obj\Debug\TCP_Server.exe
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\obj\Debug\TCP_Server.pdb
+C:\Users\CAMPUSFP\source\repos\TCP_Server\TCP_Server\obj\Debug\TCP_Server.exe.config
